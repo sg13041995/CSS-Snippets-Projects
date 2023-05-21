@@ -1,0 +1,131 @@
+.div{
+    margin: 10px;
+}
+
+/* ==================== */
+/* BUTTON GENERAL START*/
+.btn {
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: #3498db;
+    left: 0;
+    z-index: -1;
+    transition: 0.8s;
+}
+/* BUTTON GENERAL END */
+/* ======================*/
+
+
+/* BUTTON SPECIFIC START */
+/* ======================*/
+/* ONE */
+.btn-one {
+    color: #3498db;
+}
+
+.btn-one:hover {
+    color: #fff;
+}
+
+.btn-one::before {
+    top: 0;
+    right: 100%;
+    left: 0%;
+    border-radius: 0 50% 50% 0;
+}
+
+.btn-one:hover::before{
+    right: -80%;
+    left: 0%
+}
+/* ============================== */
+
+
+/* ========================== */
+/* TWO */
+.btn-two {
+    color: #3498db;
+}
+
+.btn-two:hover {
+    color: #fff;
+}
+
+.btn-two::before {
+    top: 0;
+    left: 100%;
+    right: 0%;
+    border-radius: 50% 0 0 50%;
+}
+
+.btn-two:hover::before{
+    right: 0%;
+    left: -80%;
+}
+/* ============================== */
+
+
+/* ========================== */
+/* THREE */
+.btn-three {
+    color: #fff;
+}
+
+.btn-three:hover {
+    color: #3498db;
+}
+
+.btn-three::before {
+    top: 0;
+    right: -80%;
+    left: 0%;
+    border-radius: 0 50% 50% 0;
+}
+
+.btn-three:hover::before{
+    right: 100%;
+    left: 0%
+}
+/* ============================== */
+
+/* ========================== */
+/* FOUR */
+.btn-four {
+    color: #fff;
+}
+
+.btn-four:hover {
+    color: #3498db;
+}
+
+.btn-four::before {
+    top: 0;
+    left: -80%;
+    right: 0%;
+    border-radius: 50% 0 0 50%;
+}
+
+.btn-four:hover::before{
+    right: 0%;
+    left: 100%;
+}
+/* ============================== */
+
+/* BUTTON SPECIFIC END */
+/* ================================================= */
+
+

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+
+:root {
+  --clr-background: rgb(247, 244, 244);
+  --clr-gray: rgb(119, 114, 114);
+  --font-main: "Caudex", serif;
+  --clr-dark-gray: #262626;
+  --clr-dark-black: #121212;
+  --clr-dark-text: rgb(226, 225, 225);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: var(--clr-background);
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* -------------------------Header/Navbar */
+/* Mobile Device Style ---------------------------------- */
+header {
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.navbar__ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  max-width: 500px;
+}
+
+.navbar__ul .name {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.navbar__ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__ul li {
+  background: rgba(235, 230, 230, 0.3);
+  width: 50%;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.link,
+.portfolio__header,
+footer h2 {
+  text-transform: uppercase;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.header__container img {
+  width: 30%;
+}
+
+.header__text {
+  font-weight: 200;
+  width: 100%;
+  margin-top: 20px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+/* End of Modile Device Style--------------------- */
+
+/* Desktop Style ---------------------------------- */
+/* .navbar,
+.navbar__ul,
+.header__container {
+  display: flex;
+}
+.navbar {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar__ul {
+  flex-direction: row;
+}
+
+.navbar__ul li {
+  background-color: transparent;
+}
+
+.navbar__ul .link {
+  margin: 0;
+}
+
+.header__container {
+  flex-direction: row-reverse;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__container img {
+  max-width: 330px;
+}
+
+.header__text {
+  max-width: 400px;
+  text-align: center;
+} */
+
+/* End of Desktop Style--------------------- */
+
+/* End of Header/Navbar--------------------- */
